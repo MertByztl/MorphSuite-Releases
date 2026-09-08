@@ -1,0 +1,13 @@
+{
+  "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bu dosyayi okur. Yeni surum varsa sorar; yoksa hicbir sey yapmaz. Yayin yaparken: kaynak depodaki launcher/version.py icindeki APP_VERSION ile buradaki 'suite' AYNI olmali.",
+  "suite": "2.2.0",
+  "notlar": "MorphViewer ve MorphConverter eklendi; MorphMerge onizlemesi yenilendi; TR/EN dil destegi; Pardus paketi yeniden uretildi.",
+  "kurulum": {
+    "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
+    "boyut_mb": 483
+  },
+  "linux": {
+    "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
+    "boyut_mb": 375
+  }
+}
