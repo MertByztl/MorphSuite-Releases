@@ -1,17 +1,19 @@
 {
   "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bunu okur. 'suite' alani launcher/version.py icindeki APP_VERSION ile AYNI olmali - bu dosyayi packaging/yayinla.py uretir, elle duzenlemeyin.",
-  "suite": "2.3.0",
-  "notlar": "Paket boyutu kucultuldu (~126 MB); guncelleme denetimi platform ayrimi ve sha256 dogrulamasi.",
+  "suite": "2.4.1",
+  "notlar": "Guncelleme penceresi ve indirme ekrani kendi arayuzumuzde.",
   "kurulum": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.4.1/MorphSuite_Kurulum.exe",
     "dosya": "MorphSuite_Kurulum.exe",
     "boyut_mb": 431,
-    "sha256": "ed0c62af595ee763b0d295453cd535d6cf85faee8d92aa555097313ba55461c4"
+    "sha256": "5fc7591b67d0b3b98f3a105ce1d7e024ca9104a84185f14ee5e0415e1fc85572"
   },
   "linux": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.4.1/MorphSuite_Linux.tar.gz",
     "dosya": "MorphSuite_Linux.tar.gz",
     "boyut_mb": 375,
-    "sha256": "00bd5c8d461e747a567a538eb13003c3bf4a46f27b5633feee36cc35e1a2d183"
+    "sha256": "d577643e13cb8e2b9f732431edb6519193a1022ed6738000ebe86e108b82ee4b"
   }
 }
