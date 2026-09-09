@@ -1,13 +1,17 @@
 {
-  "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bu dosyayi okur. Yeni surum varsa sorar; yoksa hicbir sey yapmaz. Yayin yaparken: kaynak depodaki launcher/version.py icindeki APP_VERSION ile buradaki 'suite' AYNI olmali.",
-  "suite": "2.2.0",
-  "notlar": "MorphViewer ve MorphConverter eklendi; MorphMerge onizlemesi yenilendi; TR/EN dil destegi; Pardus paketi yeniden uretildi.",
+  "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bunu okur. 'suite' alani launcher/version.py icindeki APP_VERSION ile AYNI olmali - bu dosyayi packaging/yayinla.py uretir, elle duzenlemeyin.",
+  "suite": "2.3.0",
+  "notlar": "Paket boyutu kucultuldu (~126 MB); guncelleme denetimi platform ayrimi ve sha256 dogrulamasi.",
   "kurulum": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "boyut_mb": 483
+    "dosya": "MorphSuite_Kurulum.exe",
+    "boyut_mb": 431,
+    "sha256": "ed0c62af595ee763b0d295453cd535d6cf85faee8d92aa555097313ba55461c4"
   },
   "linux": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "boyut_mb": 375
+    "dosya": "MorphSuite_Linux.tar.gz",
+    "boyut_mb": 375,
+    "sha256": "00bd5c8d461e747a567a538eb13003c3bf4a46f27b5633feee36cc35e1a2d183"
   }
 }
