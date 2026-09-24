@@ -1,19 +1,19 @@
 {
   "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bunu okur. 'suite' alani launcher/version.py icindeki APP_VERSION ile AYNI olmali - bu dosyayi packaging/yayinla.py uretir, elle duzenlemeyin.",
-  "suite": "2.5.0",
-  "notlar": "Sifirdan PDF olusturma, yazi tipi ailesi, imza ve serbest cizim, kopru, sekiller, ustu cizili. MorphViewer/MorphWatermark/MorphConverter'a surukle-birak. Filigran temizleme yeniden yazildi: taranmis belgelerde de calisiyor, belgeyi bozmuyor.",
+  "suite": "2.6.0",
+  "notlar": "MorphMerge sayfa duzenleyici oldu: Adobe benzeri kart gorunumu, eklerken sayfa secimi, dosyalar arasi sayfa siralama, dondurme, disari alma ve bolme. MorphSlice artik MorphCompress: sikistirma odakli, bolme istege bagli. Buyuk belgelerde akici calisma, kaldirma sihirbazi, PDF varsayilan uygulama duzeltmesi.",
   "kurulum": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.5.0/MorphSuite_Kurulum.exe",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.6.0/MorphSuite_Kurulum.exe",
     "dosya": "MorphSuite_Kurulum.exe",
     "boyut_mb": 356,
-    "sha256": "23f01ad1171dd7df80d74e803800df32fc5626f0792928c8a6a7a5b3eadf2e0c"
+    "sha256": "5bc96643377daab3e869cba8aa62ff378d8c05ccd50d481e72114b63a1cac532"
   },
   "linux": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.5.0/MorphSuite_Linux.tar.gz",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.6.0/MorphSuite_Linux.tar.gz",
     "dosya": "MorphSuite_Linux.tar.gz",
     "boyut_mb": 382,
-    "sha256": "a27e06aac34bdbaf6c6e76c2d9d1913f994e11fe3c6b708f3651f2e08da52996"
+    "sha256": "2c76a66ef6dee7fc40770d897cf499d117d2302026efc066977bbfb0314fbe84"
   }
 }
