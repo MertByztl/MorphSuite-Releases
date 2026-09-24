@@ -20,31 +20,32 @@ Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
 
 ---
 
-## 2.5.0'da neler var
+## 2.6.0'da neler var
 
-**Sıfırdan belge oluşturma.** Artık var olan bir PDF'i açmak zorunda
-değilsiniz — beş kağıt boyutu (A4, A5, A3, Letter, Legal), dikey/yatay,
-500 sayfaya kadar boş belge üretip doğrudan yazmaya başlayabilirsiniz.
+**MorphMerge artık bir sayfa düzenleyici.** Birleştirilecek dosyaları
+eklerken **hangi sayfaların alınacağını seçebilirsiniz**: bir dosyadan
+yalnızca kapak sayfalarını, ötekinden içeriği, üçüncüsünden kaynakçayı.
+Sayfalar tek tek tıklanarak, sürüklenerek ya da `1-3, 7, 10-` gibi bir
+aralık yazılarak seçilir; 59 dosya da eklense tek pencere açılır.
 
-**Yazı tipi ailesi.** Noto Serif gömüldü; Türkçe harfleri eksiksiz. Belgedeki
-gerçek font adları serif/sans olarak gruplanıyor, her belgede farklı bir liste
-çıkmıyor.
+**Kart görünümü.** Bütün sayfalar kartlar hâlinde yan yana dizilir.
+Sürükleyerek sıralayabilir, farklı dosyaların sayfalarını birbirinin arasına
+koyabilir, döndürebilir, çoğaltabilir ya da silebilirsiniz. Her kartın
+renkli şeridi hangi dosyadan geldiğini gösterir. Binlerce sayfada da akıcı.
 
-**Yeni araçlar.** İmza ve serbest çizim, köprü (link), şekiller
-(çizgi/ok/dikdörtgen/elips), üstü çizili, açıda adımlı döndürme.
+**Dışarı al ve böl.** Seçili sayfaları ayrı bir PDF olarak alabilir ya da
+belgeyi her N sayfada, her kaynak dosyada, seçili sayfalardan itibaren veya
+elle yazdığınız aralıklarda parçalara bölebilirsiniz.
 
-**Sürükle-bırak.** MorphViewer, MorphWatermark ve MorphConverter'a dosyayı
-pencereye bırakarak açabilirsiniz.
+**MorphSlice'ın yeni adı MorphCompress.** Araç artık sıkıştırmaya
+odaklanıyor: PDF, görsel ve Word dosyalarını hedef boyuta indirir ve **tek
+dosya** olarak verir. DYS sınırına sığmayan dosyalar için parçalara bölme
+isteğe bağlı bir seçenek olarak duruyor. Ayarlarınız korunur.
 
-**Filigran temizleme yeniden yazıldı.** Artık yalnızca metin filigranları
-değil, **taranmış belgelerde piksele yanmış** filigranlar da temizleniyor.
-Silmeden önce **Önce/Sonra önizlemesi** gösteriliyor. Önceki sürümde bazı
-resmî belgelerde filigranla birlikte gövde metni de siliniyordu — bu
-düzeltildi.
-
-**Kurulum sihirbazı.** Windows kurulumu artık yol seçimi, ilerleme çubuğu ve
-PDF ilişkilendirme adımı olan gerçek bir sihirbaz. Paket 431 MB'dan 356 MB'a
-indi.
+**Kurulum düzeltmeleri.** Kaldırma artık yalnızca Ayarlar → Uygulamalar'dan
+yapılıyor; eski `.bat` kaldırıcı kurulumu yarım bırakabiliyordu, çıkarıldı.
+MorphViewer, Windows'un "Varsayılan uygulamalar" listesinde PDF için
+seçilebilir hâle geldi; kurulumun sonunda bu ayar sayfası açılabiliyor.
 
 ---
 
@@ -88,8 +89,8 @@ OCR için sistemde `tesseract-ocr` paketi gerekir.
 |---|---|---|
 | **PDF** | MorphPDF | Sıfırdan belge oluşturma, metin ve görsel düzenleme, imza, köprü, şekiller, tablo, bölge bazlı OCR |
 | **VIEW** | MorphViewer | Hızlı görüntüleyici; düzenlemeye ve dönüştürmeye devreder |
-| **SLC** | MorphSlice | PDF sıkıştırma ve bölme |
-| **MRG** | MorphMerge | Birleştirme, sayfa sıralama ve numaralama |
+| **CMP** | MorphCompress | PDF, görsel ve Word dosyalarını küçültür (DYS sınırı için) |
+| **MRG** | MorphMerge | Birleştirme; hangi sayfaların alınacağını seçme, kartlarla sürükle-bırak düzenleme, bölme ve ayıklama, numaralama |
 | **WM** | MorphWatermark | Filigran temizleme (metin, görsel ve taranmış belgeler) |
 | **CONV** | MorphConverter | PDF ↔ görsel, PDF → metin, Office → PDF |
 
