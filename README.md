@@ -13,39 +13,37 @@ verisi toplanmaz, hesap açmanız gerekmez.
 | | Platform | Dosya | Boyut |
 |---|---|---|---|
 | 🪟 | **Windows 10 / 11** | **[MorphSuite_Kurulum.exe ⬇](../../releases/latest/download/MorphSuite_Kurulum.exe)** | 356 MB |
-| 🐧 | **Pardus / Linux** | **[MorphSuite_Linux.tar.gz ⬇](../../releases/latest/download/MorphSuite_Linux.tar.gz)** + **[kur.sh ⬇](../../releases/latest/download/kur.sh)** | 382 MB |
+| 🐧 | **Pardus (.deb)** | **[MorphSuite_Pardus.deb ⬇](../../releases/latest/download/MorphSuite_Pardus.deb)** | 340 MB |
+| 🐧 | **Pardus / Linux (arşiv)** | **[MorphSuite_Linux.tar.gz ⬇](../../releases/latest/download/MorphSuite_Linux.tar.gz)** + **[kur.sh ⬇](../../releases/latest/download/kur.sh)** | 386 MB |
+| 📱 | **Android — MorphScan** | **[MorphScan.apk ⬇](../../releases/download/scan-v0.3.0/MorphScan.apk)** (belge tarayıcı) | 41 MB |
 
 Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
 [Releases](../../releases)
 
 ---
 
-## 2.6.0'da neler var
+## 2.7.0'da neler var
 
-**MorphMerge artık bir sayfa düzenleyici.** Birleştirilecek dosyaları
-eklerken **hangi sayfaların alınacağını seçebilirsiniz**: bir dosyadan
-yalnızca kapak sayfalarını, ötekinden içeriği, üçüncüsünden kaynakçayı.
-Sayfalar tek tek tıklanarak, sürüklenerek ya da `1-3, 7, 10-` gibi bir
-aralık yazılarak seçilir; 59 dosya da eklense tek pencere açılır.
+**Telefondan al.** Android için yeni **MorphScan** uygulamasıyla taradığınız
+belgeyi, MorphSuite'teki QR kodu okutarak bilgisayara gönderirsiniz. Dosya
+telefonda **uçtan uca şifrelenir**; aradaki sunucu içeriği ve dosya adını
+göremez, dosyayı saklamaz. Telefonlar bir kez **eşleştirilir** (iki ekranda
+aynı 6 haneli kod çıkar); yalnızca eşleşmiş telefonlar gönderebilir. İki
+cihazın aynı ağda olması gerekmez.
 
-**Kart görünümü.** Bütün sayfalar kartlar hâlinde yan yana dizilir.
-Sürükleyerek sıralayabilir, farklı dosyaların sayfalarını birbirinin arasına
-koyabilir, döndürebilir, çoğaltabilir ya da silebilirsiniz. Her kartın
-renkli şeridi hangi dosyadan geldiğini gösterir. Binlerce sayfada da akıcı.
+**Ayarlar → İnternet bağlantısı.** Kapalıyken MorphSuite hiçbir sunucuya
+bağlanmaz: güncellemeler denetlenmez, "Telefondan al" çalışmaz. Tamamen
+çevrimdışı kullanmak isteyenler için.
 
-**Dışarı al ve böl.** Seçili sayfaları ayrı bir PDF olarak alabilir ya da
-belgeyi her N sayfada, her kaynak dosyada, seçili sayfalardan itibaren veya
-elle yazdığınız aralıklarda parçalara bölebilirsiniz.
+**Pardus için .deb paketi.** Çift tıklayınca Pardus paket yükleyicisi açılır;
+`sudo apt install ./MorphSuite_Pardus.deb` ile de kurulur,
+`sudo apt remove morphsuite` ile kaldırılır. Güncellemeler yine program
+içinden gelir.
 
-**MorphSlice'ın yeni adı MorphCompress.** Araç artık sıkıştırmaya
-odaklanıyor: PDF, görsel ve Word dosyalarını hedef boyuta indirir ve **tek
-dosya** olarak verir. DYS sınırına sığmayan dosyalar için parçalara bölme
-isteğe bağlı bir seçenek olarak duruyor. Ayarlarınız korunur.
-
-**Kurulum düzeltmeleri.** Kaldırma artık yalnızca Ayarlar → Uygulamalar'dan
-yapılıyor; eski `.bat` kaldırıcı kurulumu yarım bırakabiliyordu, çıkarıldı.
-MorphViewer, Windows'un "Varsayılan uygulamalar" listesinde PDF için
-seçilebilir hâle geldi; kurulumun sonunda bu ayar sayfası açılabiliyor.
+**MorphScan (Android) 0.3.0.** Kâğıdın kenarlarını bulup düzelten, çok
+sayfalı PDF yapan tarayıcı: fotoğrafları bozmayan belge filtresi, tam ekran
+sayfa görüntüleyici, sayfa sıralama. Play Store'da değil; kurarken Android
+"bilinmeyen kaynak" izni ister. Yeni sürüm çıkınca açılışta haber verir.
 
 ---
 
@@ -69,7 +67,13 @@ profilinize kurar ve aynı şekilde çalışır. Kaldırmak: Ayarlar → Uygulam
 
 ### Pardus / Linux
 
-Arşivi ve `kur.sh`'ı **aynı klasöre** indirin:
+Önerilen: `MorphSuite_Pardus.deb` dosyasına çift tıklayın ya da:
+
+```bash
+sudo apt install ./MorphSuite_Pardus.deb
+```
+
+Yönetici hakkınız yoksa: arşivi ve `kur.sh`'ı **aynı klasöre** indirin:
 
 ```bash
 tar -xzf MorphSuite_Linux.tar.gz
