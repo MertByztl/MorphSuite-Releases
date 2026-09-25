@@ -14,7 +14,7 @@ verisi toplanmaz, hesap açmanız gerekmez.
 |---|---|---|---|
 | 🪟 | **Windows 10 / 11** | **[MorphSuite_Kurulum.exe ⬇](../../releases/latest/download/MorphSuite_Kurulum.exe)** | 356 MB |
 | 🐧 | **Pardus (.deb)** | **[MorphSuite_Pardus.deb ⬇](../../releases/latest/download/MorphSuite_Pardus.deb)** | 340 MB |
-| 🐧 | **Pardus / Linux (arşiv)** | **[MorphSuite_Linux.tar.gz ⬇](../../releases/latest/download/MorphSuite_Linux.tar.gz)** + **[kur.sh ⬇](../../releases/latest/download/kur.sh)** | 386 MB |
+| 🐧 | **Pardus / Linux (arşiv)** | **[MorphSuite_Linux.tar.gz ⬇](../../releases/latest/download/MorphSuite_Linux.tar.gz)** (kur.sh içinde) | 386 MB |
 | 📱 | **Android — MorphScan** | **[MorphScan.apk ⬇](../../releases/download/scan-v0.3.0/MorphScan.apk)** (belge tarayıcı) | 41 MB |
 
 Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
@@ -73,10 +73,11 @@ profilinize kurar ve aynı şekilde çalışır. Kaldırmak: Ayarlar → Uygulam
 sudo apt install ./MorphSuite_Pardus.deb
 ```
 
-Yönetici hakkınız yoksa: arşivi ve `kur.sh`'ı **aynı klasöre** indirin:
+Yönetici hakkınız yoksa: `MorphSuite_Linux.tar.gz` arşivini indirin, `kur.sh` içinde gelir:
 
 ```bash
 tar -xzf MorphSuite_Linux.tar.gz
+cd Morph
 ./kur.sh          # sadece bu kullanıcı
 sudo ./kur.sh     # tüm kullanıcılar
 ```
