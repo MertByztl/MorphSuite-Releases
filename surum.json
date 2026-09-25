@@ -1,19 +1,36 @@
 {
   "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bunu okur. 'suite' alani launcher/version.py icindeki APP_VERSION ile AYNI olmali - bu dosyayi packaging/yayinla.py uretir, elle duzenlemeyin.",
-  "suite": "2.6.0",
-  "notlar": "MorphMerge sayfa duzenleyici oldu: Adobe benzeri kart gorunumu, eklerken sayfa secimi, dosyalar arasi sayfa siralama, dondurme, disari alma ve bolme. MorphSlice artik MorphCompress: sikistirma odakli, bolme istege bagli. Buyuk belgelerde akici calisma, kaldirma sihirbazi, PDF varsayilan uygulama duzeltmesi.",
+  "suite": "2.7.0",
+  "notlar": "Telefondan al: MorphScan (Android) ile taranan PDF'ler QR kodla, uctan uca sifreli olarak bilgisayara aktarilir; telefonlar bir kez eslestirilir. Ayarlar: internet baglantisini tamamen kapatma secenegi.",
   "kurulum": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.6.0/MorphSuite_Kurulum.exe",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.7.0/MorphSuite_Kurulum.exe",
     "dosya": "MorphSuite_Kurulum.exe",
     "boyut_mb": 356,
-    "sha256": "5bc96643377daab3e869cba8aa62ff378d8c05ccd50d481e72114b63a1cac532"
+    "sha256": "a2fc04dbbe62b5ae6ab5ca56fc7cf87246dd4967f876246a6f8d6f4076d55bf2"
   },
   "linux": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.6.0/MorphSuite_Linux.tar.gz",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.7.0/MorphSuite_Linux.tar.gz",
     "dosya": "MorphSuite_Linux.tar.gz",
-    "boyut_mb": 382,
-    "sha256": "2c76a66ef6dee7fc40770d897cf499d117d2302026efc066977bbfb0314fbe84"
+    "boyut_mb": 386,
+    "sha256": "193f0733d12b6f32915b9dea6aa3460886ea83bc6efeb501fe67a301bc16caa8"
+  },
+  "deb": {
+    "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.7.0/MorphSuite_Pardus.deb",
+    "dosya": "MorphSuite_Pardus.deb",
+    "boyut_mb": 340,
+    "sha256": "94c696f995bc25e4695bd6587104c8db95b49326fa6fa217e0184369d1d78140"
+  },
+  "android": {
+    "surum": "0.3.0",
+    "surum_kodu": 9,
+    "notlar": "MorphSuite'e gonderme (QR, uctan uca sifreli), bilgisayar eslestirme, tam ekran sayfa goruntuleyici, fotograflari bozmayan belge filtresi, daha yuksek cekim cozunurlugu.",
+    "sayfa": "https://morphsuite.app/#morphscan",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/scan-v0.3.0/MorphScan.apk",
+    "dosya": "MorphScan.apk",
+    "boyut_mb": 41,
+    "sha256": "e0aec0bc1cc2dd8b90113ad3df53c2107bc7edee982c9b3589dcca8fd0e29022"
   }
 }
