@@ -14,7 +14,7 @@
     "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.7.0/MorphSuite_Linux.tar.gz",
     "dosya": "MorphSuite_Linux.tar.gz",
     "boyut_mb": 386,
-    "sha256": "193f0733d12b6f32915b9dea6aa3460886ea83bc6efeb501fe67a301bc16caa8"
+    "sha256": "40c078882e9f9de97b3da0f7f685687858702324f0d7cb10299ce8bea2001d64"
   },
   "deb": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
