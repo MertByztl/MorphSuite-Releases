@@ -22,6 +22,16 @@ Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
 
 ---
 
+## 2.8.1'de neler var
+
+**Pardus'ta güncelleme düzeltmesi.** Bazı Pardus kurulumlarında güncelleme
+indirildikten sonra "Kurulum başlatılamadı" diyordu. Artık Pardus Paket
+Yükleyici ile açılıyor; o da yoksa yetkili kurulum ya da elle kurulum
+komutu gösteriliyor. **Windows'ta** güncelleme, kurulu programları yeniden
+indirmiyor. Programların kendisi 2.8.0 ile aynı.
+
+---
+
 ## 2.8.0'da neler var
 
 **Yalnız kullandığınız programları yükleyin.** Kurulum artık çok daha küçük:
