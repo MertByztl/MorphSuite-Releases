@@ -1,27 +1,164 @@
 {
   "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bunu okur. 'suite' alani launcher/version.py icindeki APP_VERSION ile AYNI olmali - bu dosyayi packaging/yayinla.py uretir, elle duzenlemeyin.",
-  "suite": "2.7.0",
-  "notlar": "Telefondan al: MorphScan (Android) ile taranan PDF'ler QR kodla, uctan uca sifreli olarak bilgisayara aktarilir; telefonlar bir kez eslestirilir. Ayarlar: internet baglantisini tamamen kapatma secenegi.",
+  "suite": "2.8.0",
+  "notlar": "Moduler kurulum: yalniz kullanacaginiz programlari yukleyin - kurulumda secin ya da MorphSuite icinden + ile ekleyin, Kaldir ile cikarin; Izgara / Sade gorunum. MorphPDF: duzenlerken metnin kopyalanmasi ve eski yerde iz kalmasi giderildi, Delete tusu secileni siler. MorphSign: e-postayla imza iste (imza@morphsuite.app), e-imza karti, Adobe gibi imza bandi, yakinlastirma ve sayfa seridi.",
   "kurulum": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.7.0/MorphSuite_Kurulum.exe",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSuite_Kurulum.exe",
     "dosya": "MorphSuite_Kurulum.exe",
-    "boyut_mb": 356,
-    "sha256": "a2fc04dbbe62b5ae6ab5ca56fc7cf87246dd4967f876246a6f8d6f4076d55bf2"
+    "boyut_mb": 154,
+    "sha256": "1ec41f5a5e0a750d8ad3fdaf1cb3e9d306106ce96fc7904b50d3104c7f70121d"
   },
   "linux": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.7.0/MorphSuite_Linux.tar.gz",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSuite_Linux.tar.gz",
     "dosya": "MorphSuite_Linux.tar.gz",
-    "boyut_mb": 386,
-    "sha256": "40c078882e9f9de97b3da0f7f685687858702324f0d7cb10299ce8bea2001d64"
+    "boyut_mb": 181,
+    "sha256": "a7b821d6a0c5d54f03973f6d8e104fb5519bbbd186773b7af0df2e39513123e7"
   },
   "deb": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.7.0/MorphSuite_Pardus.deb",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSuite_Pardus.deb",
     "dosya": "MorphSuite_Pardus.deb",
-    "boyut_mb": 340,
-    "sha256": "94c696f995bc25e4695bd6587104c8db95b49326fa6fa217e0184369d1d78140"
+    "boyut_mb": 135,
+    "sha256": "d20433178f4d9f7b96c886d412670a329c0f10cd8da9af2de35e15e4dc696dd6"
+  },
+  "araclar": {
+    "morphbatch": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphBatch_Windows.zip",
+        "dosya": "MorphBatch_Windows.zip",
+        "boyut_mb": 94.1,
+        "sha256": "d9ba7b2daf25280eb4d2db0ba7a328fc9edd62baf972ce6ab0f684b016703826"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphBatch_Linux.tar.gz",
+        "dosya": "MorphBatch_Linux.tar.gz",
+        "boyut_mb": 76.0,
+        "sha256": "76424e82722efaa3c3c6fdc4227a3acf30fbb46eeacca596fec1739907cc96f5"
+      }
+    },
+    "morphconverter": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphConverter_Windows.zip",
+        "dosya": "MorphConverter_Windows.zip",
+        "boyut_mb": 40.9,
+        "sha256": "b1f9fae1a5ca785f431c63bc36f7205d6f7ba3e1cdf989a419a5491423618b4b"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphConverter_Linux.tar.gz",
+        "dosya": "MorphConverter_Linux.tar.gz",
+        "boyut_mb": 25.0,
+        "sha256": "127a70dc45e49bac8066fce0f9fbd8c214147a6a2e8dced206f1ff9a6e5e57bc"
+      }
+    },
+    "morphform": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphForm_Windows.zip",
+        "dosya": "MorphForm_Windows.zip",
+        "boyut_mb": 97.3,
+        "sha256": "672b2bda3ced44e08852b21660714aec7ad5570fe4f0265ff9891abab0a71491"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphForm_Linux.tar.gz",
+        "dosya": "MorphForm_Linux.tar.gz",
+        "boyut_mb": 120.7,
+        "sha256": "abc8a3deb585d8420ce49ed6bdf30c75049e952ae15612d3a7ccdf9bf97de299"
+      }
+    },
+    "morphguard": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphGuard_Windows.zip",
+        "dosya": "MorphGuard_Windows.zip",
+        "boyut_mb": 46.9,
+        "sha256": "fbde0483474eda86639c90586e37e58930a3593dbd80489d8f976e7d5b26648d"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphGuard_Linux.tar.gz",
+        "dosya": "MorphGuard_Linux.tar.gz",
+        "boyut_mb": 48.4,
+        "sha256": "483b322ef81eb40b76971d3c3c3444490bfd696cd3d96d34fd40f60c61eabde0"
+      }
+    },
+    "morphmerge": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphMerge_Windows.zip",
+        "dosya": "MorphMerge_Windows.zip",
+        "boyut_mb": 51.2,
+        "sha256": "32030a8d5d2cd7edf2541ce4d056476f3e4df3d7cdcb6450837a78c67afafcbf"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphMerge_Linux.tar.gz",
+        "dosya": "MorphMerge_Linux.tar.gz",
+        "boyut_mb": 35.5,
+        "sha256": "c24e47e245137e5002aebd41fe13c891ff88f9b218540aab996bfdc9585b4c26"
+      }
+    },
+    "morphpdf": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphPDF_Windows.zip",
+        "dosya": "MorphPDF_Windows.zip",
+        "boyut_mb": 141.3,
+        "sha256": "18fa41627bfc91e4473bf4499b950f388db7007596621fb35bb503fe1dba19fb"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphPDF_Linux.tar.gz",
+        "dosya": "MorphPDF_Linux.tar.gz",
+        "boyut_mb": 131.6,
+        "sha256": "59ce9c6441e8c847c6c7ac0193305794206cf8fbea6b7bae66b6a562f3f88967"
+      }
+    },
+    "morphsign": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSign_Windows.zip",
+        "dosya": "MorphSign_Windows.zip",
+        "boyut_mb": 65.7,
+        "sha256": "9655dd2752e055dfaad31867d9c633839929fd6b91f7c30768b5ea46b286b831"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSign_Linux.tar.gz",
+        "dosya": "MorphSign_Linux.tar.gz",
+        "boyut_mb": 61.4,
+        "sha256": "1a9f1b8ea940d13139cc491c151e4cef5c4c6434db79dd312a95ce53d9988904"
+      }
+    },
+    "morphslice": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSlice_Windows.zip",
+        "dosya": "MorphSlice_Windows.zip",
+        "boyut_mb": 54.2,
+        "sha256": "d9c1238debdf560e0837d77d60cacfbd50da6efe0e444733b2b5ae4c3812f544"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSlice_Linux.tar.gz",
+        "dosya": "MorphSlice_Linux.tar.gz",
+        "boyut_mb": 37.5,
+        "sha256": "4df7f0f8c1f5d7bbced5a0cac193846c97aec640080290f6f383d1b28bf54707"
+      }
+    },
+    "morphwatermark": {
+      "surum": "2.8.0",
+      "windows": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphWatermark_Windows.zip",
+        "dosya": "MorphWatermark_Windows.zip",
+        "boyut_mb": 87.4,
+        "sha256": "8ea5c9cd109c7a40ba4985ea4cac86ac092df24504ef28315f6e70fd668ec798"
+      },
+      "linux": {
+        "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphWatermark_Linux.tar.gz",
+        "dosya": "MorphWatermark_Linux.tar.gz",
+        "boyut_mb": 126.4,
+        "sha256": "71e1d582a81ec5e9020d09eeb985a7472de075bdd06a830568bd10af9e1c68c5"
+      }
+    }
   },
   "android": {
     "surum": "0.3.0",
