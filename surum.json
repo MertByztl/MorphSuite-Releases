@@ -1,27 +1,27 @@
 {
   "_aciklama": "MorphSuite guncelleme manifesti. Baslatici her acilista bunu okur. 'suite' alani launcher/version.py icindeki APP_VERSION ile AYNI olmali - bu dosyayi packaging/yayinla.py uretir, elle duzenlemeyin.",
-  "suite": "2.8.0",
-  "notlar": "Moduler kurulum: yalniz kullanacaginiz programlari yukleyin - kurulumda secin ya da MorphSuite icinden + ile ekleyin, Kaldir ile cikarin; Izgara / Sade gorunum. MorphPDF: duzenlerken metnin kopyalanmasi ve eski yerde iz kalmasi giderildi, Delete tusu secileni siler. MorphSign: e-postayla imza iste (imza@morphsuite.app), e-imza karti, Adobe gibi imza bandi, yakinlastirma ve sayfa seridi.",
+  "suite": "2.8.1",
+  "notlar": "Pardus: guncelleme, sistemde xdg-open olmasa da acilir (Pardus Paket Yukleyici ya da yetkili apt ile); hicbiri yoksa kurulum komutu gosterilir. Windows: guncellemede kurulu programlar yeniden indirilmez.",
   "kurulum": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSuite_Kurulum.exe",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.1/MorphSuite_Kurulum.exe",
     "dosya": "MorphSuite_Kurulum.exe",
     "boyut_mb": 154,
-    "sha256": "1ec41f5a5e0a750d8ad3fdaf1cb3e9d306106ce96fc7904b50d3104c7f70121d"
+    "sha256": "a2f17535384e534a63432d96e7a155800d1eadee5d23cd0361adf89028bd3fb5"
   },
   "linux": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSuite_Linux.tar.gz",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.1/MorphSuite_Linux.tar.gz",
     "dosya": "MorphSuite_Linux.tar.gz",
     "boyut_mb": 181,
-    "sha256": "a7b821d6a0c5d54f03973f6d8e104fb5519bbbd186773b7af0df2e39513123e7"
+    "sha256": "e1ad1b845bf13eaee594e251d54eb47318dc29d073fe9e0cc8a9aa9f1c79ac53"
   },
   "deb": {
     "url": "https://github.com/MertByztl/MorphSuite-Releases/releases/latest",
-    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.0/MorphSuite_Pardus.deb",
+    "indirme_url": "https://github.com/MertByztl/MorphSuite-Releases/releases/download/v2.8.1/MorphSuite_Pardus.deb",
     "dosya": "MorphSuite_Pardus.deb",
     "boyut_mb": 135,
-    "sha256": "d20433178f4d9f7b96c886d412670a329c0f10cd8da9af2de35e15e4dc696dd6"
+    "sha256": "d6a27ad4e22be84a0cac6cdb5ce5b8cf44fd0a7d5e030c65a20c65cf987a2115"
   },
   "araclar": {
     "morphbatch": {
