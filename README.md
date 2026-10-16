@@ -1,6 +1,6 @@
 # MorphSuite — İndirme
 
-**Günlük belge işlerini tek çatı altında toplayan, tamamen çevrimdışı çalışan
+**Günlük belge işlerini tek çatı altında toplayan, üyelik gerektirmeyen
 bir masaüstü araç takımı.**
 
 Belgeleriniz bilgisayarınızdan çıkmaz. Hiçbir buluta gönderilmez, kullanım
@@ -12,9 +12,9 @@ verisi toplanmaz, hesap açmanız gerekmez.
 
 | | Platform | Dosya | Boyut |
 |---|---|---|---|
-| 🪟 | **Windows 10 / 11** | **[MorphSuite_Kurulum.exe ⬇](../../releases/latest/download/MorphSuite_Kurulum.exe)** | 356 MB |
-| 🐧 | **Pardus (.deb)** | **[MorphSuite_Pardus.deb ⬇](../../releases/latest/download/MorphSuite_Pardus.deb)** | 340 MB |
-| 🐧 | **Pardus / Linux (arşiv)** | **[MorphSuite_Linux.tar.gz ⬇](../../releases/latest/download/MorphSuite_Linux.tar.gz)** (kur.sh içinde) | 386 MB |
+| 🪟 | **Windows 10 / 11** | **[MorphSuite_Kurulum.exe ⬇](../../releases/latest/download/MorphSuite_Kurulum.exe)** | 154 MB |
+| 🐧 | **Pardus (.deb)** | **[MorphSuite_Pardus.deb ⬇](../../releases/latest/download/MorphSuite_Pardus.deb)** | 135 MB |
+| 🐧 | **Pardus / Linux (arşiv)** | **[MorphSuite_Linux.tar.gz ⬇](../../releases/latest/download/MorphSuite_Linux.tar.gz)** (kur.sh içinde) | 181 MB |
 | 📱 | **Android — MorphScan** | **[MorphScan.apk ⬇](../../releases/download/scan-v0.3.0/MorphScan.apk)** (belge tarayıcı) | 41 MB |
 
 Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
@@ -22,28 +22,25 @@ Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
 
 ---
 
-## 2.7.0'da neler var
+## 2.8.0'da neler var
 
-**Telefondan al.** Android için yeni **MorphScan** uygulamasıyla taradığınız
-belgeyi, MorphSuite'teki QR kodu okutarak bilgisayara gönderirsiniz. Dosya
-telefonda **uçtan uca şifrelenir**; aradaki sunucu içeriği ve dosya adını
-göremez, dosyayı saklamaz. Telefonlar bir kez **eşleştirilir** (iki ekranda
-aynı 6 haneli kod çıkar); yalnızca eşleşmiş telefonlar gönderebilir. İki
-cihazın aynı ağda olması gerekmez.
+**Yalnız kullandığınız programları yükleyin.** Kurulum artık çok daha küçük:
+MorphViewer her zaman, MorphPDF isteğe bağlı kurulur. Öteki programları
+kurulum sihirbazında **seçebilir** ("Tüm programlar" ya da "Özel seçim")
+ya da sonradan MorphSuite içinden **Yükle** ile ekleyip **Kaldır** ile
+çıkarabilirsiniz. Gerekmeyen program diskte yer tutmaz.
 
-**Ayarlar → İnternet bağlantısı.** Kapalıyken MorphSuite hiçbir sunucuya
-bağlanmaz: güncellemeler denetlenmez, "Telefondan al" çalışmaz. Tamamen
-çevrimdışı kullanmak isteyenler için.
+**İki görünüm.** **Izgara** tüm programları gösterir; yüklü olmayanların
+altında "Yükle" yazar. **Sade** yalnız yüklü programları gösterir, sağ
+alttaki **+** ile program eklenir. Seçtiğiniz görünüm hatırlanır.
 
-**Pardus için .deb paketi.** Çift tıklayınca Pardus paket yükleyicisi açılır;
-`sudo apt install ./MorphSuite_Pardus.deb` ile de kurulur,
-`sudo apt remove morphsuite` ile kaldırılır. Güncellemeler yine program
-içinden gelir.
+**MorphPDF.** Metni taşırken ya da kenarından büyütürken kopyasının
+kalması, eski yerinde iz (beyaz kutu, alt çizgi) kalması ve yanındaki
+metinden harf silinmesi giderildi. Seçili öğe **Delete** tuşuyla silinir.
 
-**MorphScan (Android) 0.3.0.** Kâğıdın kenarlarını bulup düzelten, çok
-sayfalı PDF yapan tarayıcı: fotoğrafları bozmayan belge filtresi, tam ekran
-sayfa görüntüleyici, sayfa sıralama. Play Store'da değil; kurarken Android
-"bilinmeyen kaynak" izni ister. Yeni sürüm çıkınca açılışta haber verir.
+**MorphSign.** E-postayla imza isteme (davetler imza@morphsuite.app'ten
+gider, belge uçtan uca şifreli), e-imza kartıyla imzalama, Adobe Sign
+gibi imza bandı, önizlemede yakınlaştırma ve sayfa şeridi.
 
 ---
 
@@ -53,8 +50,9 @@ sayfa görüntüleyici, sayfa sıralama. Play Store'da değil; kurarken Android
 
 İndirdiğiniz `MorphSuite_Kurulum.exe` dosyasına çift tıklayın. Kurulum
 sihirbazı açılır: **herkes için mi yoksa yalnızca siz mi** kurulacağını,
-**hangi klasöre** kurulacağını ve **PDF dosyalarının MorphViewer ile
-açılmasını** isteyip istemediğinizi sorar.
+**hangi klasöre** kurulacağını, **hangi programların** kurulacağını ve
+**PDF dosyalarının MorphViewer ile açılmasını** isteyip istemediğinizi sorar.
+Seçtiğiniz ek programlar kurulum sırasında indirilir.
 
 > **Windows bir uyarı gösterecek.** "Windows bilgisayarınızı korudu" diyorsa
 > **Ek bilgi → Yine de çalıştır** deyin. Sebebi: kurulum dosyası dijital
@@ -86,6 +84,9 @@ Kurulum, PDF dosyalarının varsayılan olarak MorphViewer ile açılmasını **
 kez sorar**; hayır derseniz "Birlikte aç" menüsünden her zaman seçebilirsiniz.
 OCR için sistemde `tesseract-ocr` paketi gerekir.
 
+Paket MorphViewer ve MorphPDF ile gelir; MorphSuite ilk açılışta öteki
+programları seçip yükleyebileceğiniz pencereyi gösterir.
+
 ---
 
 ## Araçlar
@@ -98,6 +99,13 @@ OCR için sistemde `tesseract-ocr` paketi gerekir.
 | **MRG** | MorphMerge | Birleştirme; hangi sayfaların alınacağını seçme, kartlarla sürükle-bırak düzenleme, bölme ve ayıklama, numaralama |
 | **WM** | MorphWatermark | Filigran temizleme (metin, görsel ve taranmış belgeler) |
 | **CONV** | MorphConverter | PDF ↔ görsel, PDF → metin, Office → PDF |
+| **GRD** | MorphGuard | KVKK karartma (TC kimlik, IBAN, telefon, e-posta — kalıcı silme ve doğrulama), PDF şifreleme ve izinler, gizli bilgi temizliği |
+| **SIGN** | MorphSign | İmza isteme (e-postayla, Adobe Sign gibi), e-imza kartıyla imzalama, imza doğrulama |
+| **BATCH** | MorphBatch | Toplu işlem: karartma, damga, sıkıştırma, imza adımlarını sırayla birçok dosyaya uygular |
+| **FORM** | MorphForm | PDF formlarını doldurma; bilgiler projede saklanır, asıl form değişmez |
+
+MorphViewer dışındaki programlar isteğe bağlıdır: kurulumda seçilir ya da
+MorphSuite içinden yüklenir / kaldırılır.
 
 Araçlar birbirine iş devredebilir: görüntüleyicide açtığınız bir PDF'i tek
 tıkla düzenlemeye ya da dönüştürmeye gönderebilirsiniz.
