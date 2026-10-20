@@ -22,6 +22,22 @@ Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
 
 ---
 
+## 2.8.2'de neler var
+
+**MorphSign: e-postayla imza isteğinde kart gerekmez.** "Ben de imzalayacağım"
+dediğinizde imzanızı programda çizersiniz; e-postanıza gelen kodu girince
+imzalamış olursunuz. Herkes imzalayınca belge, isteğinize özel ve adınıza
+üretilen tek kullanımlık bir sertifikayla **kilitli** olarak mühürlenir;
+sonradan yapılan her değişiklik doğrulamada görünür. e-İmza kartıyla imza
+"Kendim imzala"da olduğu gibi duruyor. İmzalı bir belgenin **imzasız aslını**
+açabilir ya da ayrı dosya olarak geri alabilirsiniz.
+
+Ayrıca: bütün programlar yüklüyse Izgara/Sade düğmesi gizlenir; Pardus'ta
+güncelleme önce Pardus Paket Yükleyici ile açılır. Bu sürümde yalnız
+MorphSign güncellenir; öteki programlar 2.8.0 ile aynı.
+
+---
+
 ## 2.8.1'de neler var
 
 **Pardus'ta güncelleme düzeltmesi.** Bazı Pardus kurulumlarında güncelleme
