@@ -22,6 +22,29 @@ Bu bağlantılar **her zaman en son sürümü** verir. Tüm sürümler:
 
 ---
 
+## 2.8.3'te neler var
+
+**Türkçe ve İngilizce.** Bütün programlar artık iki dilli. Dili MorphSuite
+başlatıcısının üstündeki menüden ya da kurulumun başında seçersiniz;
+programlar bir sonraki açılışta o dilde gelir. *All tools are now available
+in English too.*
+
+**MorphSign.** E-postayla gönderilen imza isteğinin e-postaları ve alıcının
+açtığı imza sayfası, gönderdiğiniz andaki program dilinde (alıcı sayfada
+TR/EN ile değiştirebilir).
+
+**MorphPDF.** Arial, Times New Roman ve Courier ile aynı ölçülerde yazı
+tipleri (resmî yazılarda düzenlenen metin kaymaz); bilgisayarınızda kurulu
+yazı tipleri de listede, belgedeki yazı tipi kuruluysa düzenlerken o
+kullanılır. Özellikler panelindeki **zinciri** açınca metnin genişliği ve
+yüksekliği ayrı ayrı değişir. Arial/Calibri gibi yazı tiplerinde kopyalanan
+metindeki boşlukların bozulması giderildi.
+
+**MorphGuard.** PDF/A dönüştürmede gömülemeyen bir yazı tipi "yapıldı"
+sayılıyordu; artık sorun olarak bildiriliyor.
+
+---
+
 ## 2.8.2'de neler var
 
 **MorphSign: e-postayla imza isteğinde kart gerekmez.** "Ben de imzalayacağım"
